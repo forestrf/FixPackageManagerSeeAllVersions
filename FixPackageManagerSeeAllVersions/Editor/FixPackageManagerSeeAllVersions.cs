@@ -1,3 +1,4 @@
+#if UNITY_2021_1_OR_NEWER
 using Harmony;
 using System.Reflection;
 using UnityEditor;
@@ -30,3 +31,4 @@ public class FixPackageManagerSeeAllVersions {
 		return false;
 	}
 }
+#endif
